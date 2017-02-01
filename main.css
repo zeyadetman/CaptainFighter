@@ -1,0 +1,31 @@
+.cells{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  border: 1px solid black;
+  background-color: white;
+  display: block;
+}
+
+#gameBody{
+  position: relative;
+  background-image: url("background.png");
+  width: 1173px;
+  height: 500px;
+}
+#info{
+  border: 5px solid 	#ff8d00;
+  position: relative;
+  background-image: url("background.png");
+  background-size: 1173px 100px;
+  width: 1173px;
+  height: 70px;
+}
+
+p{
+    display: inline;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: #623b12;
+}
